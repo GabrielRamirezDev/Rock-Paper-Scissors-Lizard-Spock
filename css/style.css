@@ -1,0 +1,80 @@
+*{
+  padding:0;
+  margin:0;
+}
+body{
+  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c96317f5-90ae-4928-9cd0-2d0ffeb038d3/d636ien-47b3dc23-f083-45ef-8c3c-39cdb5e31475.jpg/v1/fill/w_600,h_800,q_75,strp/rock_paper_scissors_lizard_spock_by_wirdoudesigns_d636ien-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD04MDAiLCJwYXRoIjoiXC9mXC9jOTYzMTdmNS05MGFlLTQ5MjgtOWNkMC0yZDBmZmViMDM4ZDNcL2Q2MzZpZW4tNDdiM2RjMjMtZjA4My00NWVmLThjM2MtMzljZGI1ZTMxNDc1LmpwZyIsIndpZHRoIjoiPD02MDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.QAaNMT0vZpAwmFRcoCq9DNEzl19MVz6QROCiWIGajEQ");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-color: rgb(208,210,209);
+  font-family: 'Bungee', cursive;
+
+}
+.h1{
+  display: flex;
+  justify-content: center;
+}
+.button{
+  display: flex;
+  justify-content: center;
+}
+.display{
+  display: flex;
+  justify-content: center;
+  margin-top: 340px;
+  color: #ff0000;
+  position: absolute;
+	left: 50% ;
+	/* width: 60px; */
+	height: 60px ;
+	margin-left:-30px;
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	-ms-border-radius:50%;
+	border-radius:50%;
+	animation: bounce 2s infinite;
+	-webkit-animation: bounce 2s infinite;
+	-moz-animation: bounce 2s infinite;
+	-o-animation: bounce 2s infinite;
+}
+/* bounce animation and keyframes from stackoverflow,css tricks,geeksforgeeks  */
+.bounce {
+	position: absolute;
+	bottom: 30px;
+	left: 50% ;
+	width: 60px;
+	height: 60px ;
+	margin-left:-30px;
+	border: 2px solid #990000;
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	-ms-border-radius:50%;
+	border-radius:50%;
+	animation: bounce 2s infinite;
+	-webkit-animation: bounce 2s infinite;
+	-moz-animation: bounce 2s infinite;
+	-o-animation: bounce 2s infinite;
+}
+
+@-webkit-keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);}
+	40% {-webkit-transform: translateY(-30px);}
+	60% {-webkit-transform: translateY(-15px);}
+}
+
+@-moz-keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {-moz-transform: translateY(0);}
+	40% {-moz-transform: translateY(-30px);}
+	60% {-moz-transform: translateY(-15px);}
+}
+
+@-o-keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {-o-transform: translateY(0);}
+	40% {-o-transform: translateY(-30px);}
+	60% {-o-transform: translateY(-15px);}
+}
+@keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+	40% {transform: translateY(-30px);}
+	60% {transform: translateY(-15px);}
+}
