@@ -1,7 +1,7 @@
 # Rock-Paper-Scissors-Lizard-Spock
 
 ## About The Project
-![screenshot](portfolio image link here)
+![screenshot](https://www.gabe-dev.com/images/rpsls.png)
 
  A twist on the classic game!
 
